@@ -48,10 +48,6 @@ public class MyHashTable<T> {
         return buckets[pos].add(value);
     }
 
-    public MyHashTable<T> plus(T value) {
-        add(value);
-        return this;
-    }
 
     @Override
     public String toString() {
